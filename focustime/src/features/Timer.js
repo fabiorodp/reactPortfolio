@@ -91,6 +91,7 @@ export const Timer = ({ focusSubject, clearSubject, onTimerEnd }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: colors.darkGreen
   },
   countdown: {
     flex: 0.5,

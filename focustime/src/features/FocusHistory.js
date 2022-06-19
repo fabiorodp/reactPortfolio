@@ -5,7 +5,7 @@ import { fontSizes, spacing } from '../utils/sizes';
 
 export const FocusHistory = ({ history }) => {
   if (!history || !history.length) 
-    return <Text style={styles.title}>We have not focused on anything:</Text>;
+    return <Text style={styles.title}>We have not focused on anything!</Text>;
 
   const renderItem = ({ item }) => <Text style={styles.item}>- {item}</Text>;
 
